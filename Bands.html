@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>臺灣知名獨立樂團</title>
+    <link rel="shortcut icon" href="images/rock.ico" type="image/x-icon">
+    <link rel="icon" href="images/rock.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+</head>
+<body>
+<!-- top-->
+    <header>
+        <div class="top">
+            <div class="toplogo"><img src="images/rocklogo.jpg" alt=""></div>
+            <div class="toptext"><h1>Rock'n Roll Never Die.</h1></div>
+        </div>
+        <div class="menu">
+            <ul >
+                <li><a href="index.html"> 首頁</a></li>
+                <li ><a href="Bands.html"> 獨立樂團</a></li>
+                <li ><a href="FireEX.html"> 滅火器</a></li>
+                <li ><a href="Mixer.html"> 糜先生</a></li>
+                <li ><a href="Trash.html"> Trash</a></li>
+            </ul> 
+        </div>
+    </header>
+<!-- top-->
+
+
+<!-- content-->
+<div class="content1">
+
+    <div class="center" style="font-size: 25;">
+        <h1 class="TITLE">臺灣知名獨立樂團</h1>
+        <p> <b class="bbb">文化</b> 包羅萬象加上言論自由的環境使得臺灣有不少獨立樂團，千禧年後社會的轉變讓獨立音樂得以急速發展，眾多獨立音樂人紛紛冒出頭來獲得注視，從前所謂「地下」的他們逐漸浮出水面，如今得到年輕族群喜愛的他們受歡迎程度不亞於各流行明星，「地下」二字已經無法貼切形容他們，各媒體漸習慣以「獨立音樂」概括定義這些出身非主流唱片公司、注重原創自主的音樂人與樂團。
+        </p>
+        <div class="bands">
+            <h1>部分知名獨立樂團</h1>
+            <ul>
+                <li>
+                    <div class="bandsimg">                        
+                        <a href="images/trash.jpg" data-fancybox="gallery">
+                            <h2>Trash</h2>
+                        </a>
+                        <img src="images/trash.jpg" alt=""> 
+                    </div>
+                    <div class="bandsimg">                      
+                        <a href="images/hellonico.jpg" data-fancybox="gallery">
+                            <h2>Hello Nico</h2>
+                        </a>
+                        <img src="images/hellonico.jpg" alt=""> 
+                        </div>
+                </li>
+                <li>
+                    <div class="bandsimg">                     
+                        <a href="images/mixer.jpg" data-fancybox="gallery">
+                            <h2>糜先生</h2>
+                        </a>
+                        <img src="images/mixer.jpg" alt="">
+                    </div>
+                    <div class="bandsimg">                       
+                        <a href="images/fireex.jpg" data-fancybox="gallery">
+                            <h2>滅火器</h2>
+                        </a>
+                        <img src="images/fireex.jpg" alt=""> 
+                    </div>
+                </li>
+                <li>
+                    <div class="bandsimg">                        
+                        <a href="images/EggPlantEgg.jpeg" data-fancybox="gallery">
+                            <h2>茄子蛋</h2>
+                        </a>
+                        <img src="images/EggPlantEgg.jpeg" alt=""> 
+                    </div>
+                    <div class="bandsimg">                        
+                        <a href="images/yourwomansleepwithother.png" data-fancybox="gallery">
+                            <h2>老王樂隊</h2>
+                        </a>
+                        <img src="images/yourwomansleepwithother.png" alt="">
+                    </div>                   
+                </li>
+                <li>
+                    <div class="bandsimg">                        
+                        <a href="images/Cosmospeople.jpg" data-fancybox="gallery">
+                            <h2>宇宙人</h2>
+                        </a> 
+                        <img src="images/Cosmospeople.jpg" alt="">
+                    </div>
+                    <div class="bandsimg">
+                        <a href="images/Accusefive.jpeg" data-fancybox="gallery">
+                            <h2>告五人</h2>
+                        </a>
+                        <img src="images/Accusefive.jpeg" alt=""> 
+                    </div>
+                </li>
+
+            </ul>
+            
+        </div>   
+        <div class="form">
+            <h2>小調查</h2>
+            <form action="#">
+                <label for="bands">以上介紹樂團你最喜歡哪一個呢?</label><br>
+                <select name="bands" id="bands">
+                    <option value="Trash">Trash</option>
+                    <option value="Hello Nico">Hello Nico</option>
+                    <option value="Mixer">糜先生</option>
+                    <option value="FixerEX">滅火器</option>
+                    <option value="EggPlantEgg">茄子蛋</option>
+                    <option value="yourwomansleepwithother">老王樂隊</option>
+                    <option value="Cosmospeople">宇宙人</option>
+                    <option value="Accusefive">告五人</option>
+                </select><br>
+                <label for="FM">性別:</label><br>
+                <input type="radio" id="FM"name="M">男
+                <input type="radio" id="FM"name="W">女
+                <input type="radio" id="FM"name="B">保留<br>
+                <input type="submit"value="送出答覆">
+            </form>
+        </div> 
+    </div>
+
+</div>
+
+<!-- content-->
+
+<!-- footer-->
+    <footer>
+         <p>
+                  面對最真實的自我<br>
+                將不朽的精神握在手中<br>
+               便能將心的疑惑拋諸腦後<br>
+              Never stop!  Never die! 
+         </p>
+    </footer>
+<!-- footer-->
+</body>
+</html>
